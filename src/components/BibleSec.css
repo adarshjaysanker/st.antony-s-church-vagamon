@@ -1,0 +1,61 @@
+.quote-section{
+    position: relative;
+    height: 1500px;
+    overflow: hidden;
+    
+   
+}
+
+.quote-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1500px;
+    background-image: url('https://d4bge0zxg5qba.cloudfront.net/cms/images/default-source/blogs/blogs-hero/blog__hero--if-jesus-is-god-why-did-he-call-himself-the-son-of-man.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+
+
+.quote-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0,0,0,0.7);
+
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.quote-text{
+    font-size: 5em;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.quote-author{
+    font-size: 1.2em;
+    font-style: italic;
+    color: #ddd;
+    margin: 0;
+}
+
+.quote-control{
+    background-color: #ffd700;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quote-control:hover{
+    background-color: #e0bb00;
+}

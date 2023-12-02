@@ -1,0 +1,66 @@
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://stanthony-hightstown.net/wp-content/uploads/l_saint-anthony_1200x675-1024x576.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 300px 20px;
+    position: relative;
+    align-items: center;
+}
+
+.hero-content{
+   z-index: 2;
+   margin-bottom: 20px;
+}
+
+.quote{
+   position: absolute;
+   bottom: 20px;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 80%;
+ }
+
+ 
+
+.hero h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 1.4em;
+    margin-bottom: 40px;
+}
+
+.quote p{
+    margin: 0;
+    color: white;
+    font-style: italic;
+}
+
+.quote .author{
+    margin-top: 10px;
+    font-style: normal;
+}
+
+
+
+
+
+.cta-button{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #e44d26;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover{
+    background-color: #c0351c;
+}

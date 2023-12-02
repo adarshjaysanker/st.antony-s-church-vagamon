@@ -1,0 +1,43 @@
+.services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: rgb(0,35,91);
+}
+
+.service-box{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(255, 221, 131);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.service-box h2{
+    color: black;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-box p{
+    font-size: 1em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.service-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(226,24,24);
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.service-button:hover{
+    background-color: #e0bb00;
+}

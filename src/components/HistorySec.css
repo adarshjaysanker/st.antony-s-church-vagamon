@@ -1,0 +1,40 @@
+.image-text-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: rgb(0,35,91);
+}
+
+.image-container img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-container{
+    color: white;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.text-container p{
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.learn-more-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-button:hover{
+    background-color: #e0bb00;
+}
